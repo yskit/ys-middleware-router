@@ -13,7 +13,7 @@ npm install --save ys-middleware-router
 ```javascript
 const Router = require('ys-middleware-router');
 const route = module.exports = new Router();
-route.receive('/:id(\\d+)', async ctx => {
+route.get('/:id(\\d+)', async ctx => {
   ctx.send({
     a: 1,
     b: 2,
