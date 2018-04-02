@@ -143,7 +143,7 @@ module.exports = class Router {
    * @param {Function} callback route callback
    * @returns {Router}
    */
-  receive(name, path, middleware) {
+  get(name, path, middleware) {
     if (typeof path === 'string' || path instanceof RegExp) {
       middleware = Array.prototype.slice.call(arguments, 2);
     } else {

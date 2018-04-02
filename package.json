@@ -1,6 +1,6 @@
 {
   "name": "ys-middleware-router",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ys middleware router",
   "main": "index.js",
   "repository": {
